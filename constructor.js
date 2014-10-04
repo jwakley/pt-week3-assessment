@@ -3,10 +3,10 @@
 */
 
     var person = function(name, age) {
-      var person = {};
-      person.name = name;
-      person.age = age;
-      return person;
+      var obj = {};
+      obj.name = name;
+      obj.age = age;
+      return obj;
     };
 
 /* Call your function twice creating two different objects */
@@ -18,7 +18,7 @@
 /* In this scenario, can you add a method to your person functions prototoype and then have
    the objects you create with that function delegate to the person's prototype?
 
-   //Explain your answer here
+   //Explain your answer here ...
    No, you can only add a property/method to an object that was created through a constructor function ... 
    Not on object literals like the one we created in the function above.
 
